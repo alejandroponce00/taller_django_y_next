@@ -3,10 +3,10 @@ import React from "react";
 import { useState } from "react";
 
 function FormTask() {
-  const [vehiculo, setVehiculo] = useState("");
-  const [dueño, setDueño] = useState("");
-  const [patente, setPatente] = useState("");
-  const [reparar, setReparar] = useState("");
+  const [vehiculo, setVehiculo] = useState('')
+  const [dueño, setDueño] = useState('')
+  const [patente, setPatente] = useState('')
+  const [reparar, setReparar] = useState('')
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(vehiculo, dueño, patente, reparar);
@@ -25,7 +25,7 @@ function FormTask() {
     <div className="bg-slate-200 p-10">
       <form onSubmit={handleSubmit}>
         <h1 className="text-black">Ingresar nuevo vehiculo</h1>
-        <label htmlFor="vehiculo" className="text-sm text-black"></label>
+      
         <input
           type="text"
           name="vehiculo"
@@ -57,7 +57,7 @@ function FormTask() {
           onChange={(e) => setReparar(e.target.value)}
         ></textarea>
         <button className="bg-indigo-500 text-white rounded-md">
-          {" "}
+          
           Guardar
         </button>
       </form>
