@@ -6,3 +6,4 @@ class TaskSerializer(serializers.ModelSerializer):
         model = Task
         fields =('id','vehiculo','falla','reparado','fecha')  
         read_only_fields =('id' ,'fecha')  
+        
