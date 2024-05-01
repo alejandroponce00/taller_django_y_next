@@ -2,7 +2,7 @@ import React from 'react'
 
 function ListTask() {
   return (
-    <div>ListTaskaa</div>
+    <h1>ListTaskaa</h1>
   )
 }
 
