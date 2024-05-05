@@ -1,13 +1,13 @@
 import FormTask from "./components/FormTask";
 import ListTask from "./components/ListTask";
 
-
 export const dynamic = "force-dynamic";
+
 
 function HomePage() {
   return (
     <div className="container mx-auto">
-      <h1>Task App</h1>
+      <h1 className="text-center p-8 text-xl text-blue-200 ">Administrador de Turnos de Taller Mecanico</h1>
       <div className="flex gap-x-10">
         <FormTask />
         <ListTask />
