@@ -5,6 +5,8 @@ export const dynamic = "force-dynamic";
 
 
 function HomePage() {
+
+  
   return (
     <div className="container mx-auto">
       <h1 className="text-center p-8 text-xl text-blue-200 ">Administrador de Turnos de Taller Mecanico</h1>

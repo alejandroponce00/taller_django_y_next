@@ -7,6 +7,8 @@ function FormTask() {
   const [dueño, setDueño] = useState("");
   const [falla, setFalla] = useState("");
   const router = useRouter();
+  
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,8 +24,8 @@ function FormTask() {
       }
     );
     const data = await res.json()
-    console.log(data);
-    router.refresh()
+   console.log(data);    
+    router.refresh() 
   };
 
   return (
@@ -54,6 +56,7 @@ function FormTask() {
         <button className="bg bg-indigo-400 text-black font-bold rounded-md p-2 block w-full">
           Save
         </button>
+        
       </form>
     </div>
   );

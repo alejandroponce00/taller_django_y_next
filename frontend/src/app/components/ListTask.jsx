@@ -22,7 +22,9 @@ async function ListTask() {
         <TaskCard task={task} key={task.id} />
       ))}
     </div>
+    
   );
+  
 }
 
 export default ListTask;
