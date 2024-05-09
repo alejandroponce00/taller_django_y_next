@@ -50,7 +50,7 @@ const handleTaskDone = async (id) =>{
         <button className="text-white rounded p-2 bg-red-500" onClick={() => handleDelete(task.id)}>
           Eliminar
         </button>
-        <button className="text-white rounded p-2 bg-indigo-500">Actualizar</button>
+        
       </div>
     </div>
   );

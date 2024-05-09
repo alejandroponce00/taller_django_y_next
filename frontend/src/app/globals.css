@@ -5,6 +5,10 @@
 body{
   @apply bg-gray-950 text-white;
 }
-
-
- 
+.imagen{object-fit: cover;
+z-index: -1;}
+.divform{
+  background-color: #ffffff10;
+  backdrop-filter: blur(5px);
+  border-radius:   10px;
+}
