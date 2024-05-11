@@ -2,16 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply bg-gray-950 text-white;
+body{@apply  text-white;background-color: rgb(22, 35, 64);
+  @media (max-width: 767px) {
+    background-color: black;
+    text-align: center;
+    container:initial;
+    
+  }
+  
 }
 .imagen{object-fit: cover;
-z-index: -1;}
-.divform{
+z-index: -2;}
+.divform{@media (max-width: 767px) {
+  display: inline-block;
+  
+}
   background-color: #ffffff10;
   backdrop-filter: blur(5px);
   border-radius:   10px;
   margin: -10px;
+  display: contents;
 }
 .datos{flex-grow: 3;
   display: flex;
@@ -19,5 +29,9 @@ z-index: -1;}
   
 
 }
+
+
+
+
 
 
