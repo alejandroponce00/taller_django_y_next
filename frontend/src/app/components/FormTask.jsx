@@ -30,7 +30,7 @@ function FormTask() {
   };
 
   return (
-    <div className="divform bg-slate-200 p-7 h-fi block">
+    <div className="divform bg-slate-200 p-2 h-fi block">
       <form onSubmit={handleSubmit}>
         <h1 className="text-white font-bold text-xl">Añadir Turno</h1>
         <p className="text-xs text-black">vehiculo:</p>

@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 function HomePage() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto sm:flex-col">
       
       
        
@@ -15,7 +15,7 @@ function HomePage() {
       <h1 className="text-center p-8 text-xl text-blue-200 ">
         Administrador de Turnos de Taller Mecanico
       </h1>
-      <div className="flex gap-x-10"> <Image
+      <div className="flex gap-x-10 xl:flex-row  md:flex-col  sm:flex-col"> <Image
           alt="fondo"
           src={"/imagenes/IMG_8598.jpg"}
           className="imagen"
@@ -23,8 +23,11 @@ function HomePage() {
           //height={"200"}
           fill={true}
         />
+        
         <FormTask />
+        
         <ListTask />
+        
       </div>
     </div>
   );

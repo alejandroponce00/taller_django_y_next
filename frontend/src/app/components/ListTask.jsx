@@ -15,13 +15,15 @@ async function ListTask() {
  
 
   return (
-    <div className="divform bg-slate-700 p-4 w-full">
+    
+    <div className="divform bg-slate-700 p-4 w-full flow-root ">
       <h1 className="text-slate-200 text-xl text-center">Lista de Turnos</h1>
 
       {tasks.map((task) => (
         <TaskCard task={task} key={task.id} />
       ))}
     </div>
+     
     
   );
   
