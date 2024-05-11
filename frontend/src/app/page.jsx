@@ -6,11 +6,11 @@ export const dynamic = "force-dynamic";
 
 function HomePage() {
   return (
-    <div className=" container mx-auto sm:flex-col">
+    <div className=" container mx-auto ">
       <h1 className="text-center p-8 text-xl text-blue-200 ">
         Administrador de Turnos de Taller Mecanico
       </h1>
-      <div className="divform flex gap-x-10 xl:flex-row  md:flex-col  sm:flex-col">
+      <div className="divform flex gap-x-10   md:flex-col  sm:flex-col">
         {" "}
         <Image
           alt="fondo"
